@@ -14,7 +14,7 @@ import { StickyCTA } from './components/StickyCTA';
 
 export default function App() {
   return (
-    <main className="font-sans text-gray-900 antialiased selection:bg-green-200 selection:text-green-900 pb-28">
+    <main className="font-sans text-gray-200 bg-[#0a0a0a] antialiased selection:bg-green-700 selection:text-white pb-28">
       <Hero />
       <ProblemAgitation />
       <Story />
