@@ -2,17 +2,15 @@ import { FadeIn } from './FadeIn';
 
 export function Mechanism() {
   return (
-    <section className="bg-white py-16 md:py-24 px-4 sm:px-6 overflow-hidden">
+    <section className="bg-[#111] py-16 md:py-24 px-4 sm:px-6 overflow-hidden">
       <div className="max-w-4xl mx-auto">
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl md:text-5xl font-black tracking-tight leading-none text-gray-900 mb-6 text-center">
-            Giới thiệu khóa học
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight leading-snug text-white mb-12 text-center">
+            Và đây là khóa học<br />
+            <span className="text-green-400 font-extrabold uppercase whitespace-nowrap">AI COPYWRITING MASTERY</span>
           </h2>
-          <h3 className="text-2xl md:text-4xl font-extrabold tracking-tight text-green-800 mb-12 text-center uppercase">
-            AI COPYWRITING MASTERY
-          </h3>
           
-          <p className="text-xl text-center text-gray-700 max-w-2xl mx-auto mb-16 leading-relaxed">
+          <p className="text-base md:text-lg text-center text-gray-300 max-w-2xl mx-auto mb-16 leading-relaxed">
             Khóa học cung cấp cho bạn từng bước thực hành, bộ công cụ AI, và quy trình bài bản để <strong>tự do sáng tạo ngôn từ giúp doanh nghiệp tăng doanh số.</strong>
           </p>
         </FadeIn>
@@ -20,15 +18,15 @@ export function Mechanism() {
         <div className="space-y-10">
           {/* Module 1 */}
           <FadeIn delay={0.2}>
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
+            <div className="bg-[#111] border-2 border-gray-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-2 h-full bg-green-500"></div>
-              <div className="bg-green-100 text-green-800 p-4 rounded-xl font-bold flex-shrink-0 flex items-center justify-center w-20 h-20 text-center group-hover:scale-105 transition-transform">
-                <span className="text-sm uppercase tracking-wider block">Module</span>
-                <span className="text-4xl ml-1">1</span>
+              <div className="bg-green-900/40 text-green-400 px-3 py-1.5 rounded-lg font-bold flex-shrink-0 flex items-center justify-center w-max group-hover:scale-105 transition-transform">
+                <span className="text-xs uppercase tracking-wider">Module</span>
+                <span className="text-xl ml-1">1</span>
               </div>
-              <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-800 transition-colors">Mindset của Top 1% Copywriter</h4>
-                <ul className="space-y-3 text-gray-700">
+              <div className="flex-1 min-w-0">
+                <h4 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">Mindset của Top 1% Copywriter</h4>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1 font-bold">✓</span>
                     <span>Cách tránh 90% lỗi sai của amateur.</span>
@@ -48,15 +46,15 @@ export function Mechanism() {
           
           {/* Module 2 */}
           <FadeIn delay={0.2}>
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
+            <div className="bg-[#111] border-2 border-gray-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
                <div className="absolute top-0 left-0 w-2 h-full bg-green-500"></div>
-              <div className="bg-green-100 text-green-800 p-4 rounded-xl font-bold flex-shrink-0 flex items-center justify-center w-20 h-20 text-center group-hover:scale-105 transition-transform">
-                <span className="text-sm uppercase tracking-wider block">Module</span>
-                <span className="text-4xl ml-1">2</span>
+              <div className="bg-green-900/40 text-green-400 px-3 py-1.5 rounded-lg font-bold flex-shrink-0 flex items-center justify-center w-max group-hover:scale-105 transition-transform">
+                <span className="text-xs uppercase tracking-wider">Module</span>
+                <span className="text-xl ml-1">2</span>
               </div>
-              <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-800 transition-colors">Mở Khoá Bộ Công Cụ AI Siêu Việt</h4>
-                <ul className="space-y-3 text-gray-700">
+              <div className="flex-1 min-w-0">
+                <h4 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">Mở Khoá Bộ Công Cụ AI Siêu Việt</h4>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1 font-bold">✓</span>
                     <span>Thực hành trên LLMs, <strong>nắm trọn bộ Prompt đỉnh nhất (đang làm việc kiếm hàng chục nghìn đô cho mình)</strong></span>
@@ -80,15 +78,15 @@ export function Mechanism() {
           
           {/* Module 3 */}
           <FadeIn delay={0.2}>
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
+            <div className="bg-[#111] border-2 border-gray-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
                <div className="absolute top-0 left-0 w-2 h-full bg-green-500"></div>
-              <div className="bg-green-100 text-green-800 p-4 rounded-xl font-bold flex-shrink-0 flex items-center justify-center w-20 h-20 text-center group-hover:scale-105 transition-transform">
-                <span className="text-sm uppercase tracking-wider block">Module</span>
-                <span className="text-4xl ml-1">3</span>
+              <div className="bg-green-900/40 text-green-400 px-3 py-1.5 rounded-lg font-bold flex-shrink-0 flex items-center justify-center w-max group-hover:scale-105 transition-transform">
+                <span className="text-xs uppercase tracking-wider">Module</span>
+                <span className="text-xl ml-1">3</span>
               </div>
-              <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-800 transition-colors">Các Frameworks Kinh Điển</h4>
-                <ul className="space-y-3 text-gray-700">
+              <div className="flex-1 min-w-0">
+                <h4 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">Các Frameworks Kinh Điển</h4>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1 font-bold">✓</span>
                     <span>Cách móc túi khách hàng mượt nhất (PAS).</span>
@@ -116,15 +114,15 @@ export function Mechanism() {
           
           {/* Module 4 */}
           <FadeIn delay={0.2}>
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
+            <div className="bg-[#111] border-2 border-gray-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
                <div className="absolute top-0 left-0 w-2 h-full bg-green-500"></div>
-               <div className="bg-green-100 text-green-800 p-4 rounded-xl font-bold flex-shrink-0 flex items-center justify-center w-20 h-20 text-center group-hover:scale-105 transition-transform">
-                <span className="text-sm uppercase tracking-wider block">Module</span>
-                <span className="text-4xl ml-1">4</span>
+               <div className="bg-green-900/40 text-green-400 px-3 py-1.5 rounded-lg font-bold flex-shrink-0 flex items-center justify-center w-max group-hover:scale-105 transition-transform">
+                <span className="text-xs uppercase tracking-wider">Module</span>
+                <span className="text-xl ml-1">4</span>
               </div>
-              <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-800 transition-colors">Bí Mật Đằng Sau Kỹ Năng Tìm Kiếm Điểm Đau</h4>
-                <ul className="space-y-3 text-gray-700">
+              <div className="flex-1 min-w-0">
+                <h4 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">Bí Mật Đằng Sau Kỹ Năng Tìm Kiếm Điểm Đau</h4>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1 font-bold">✓</span>
                     <span>Copywriting giỏi mà không hiểu khách hàng thì cũng vứt.</span>
@@ -144,15 +142,15 @@ export function Mechanism() {
           
           {/* Module 5 */}
           <FadeIn delay={0.2}>
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
+            <div className="bg-[#111] border-2 border-gray-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
                <div className="absolute top-0 left-0 w-2 h-full bg-green-500"></div>
-               <div className="bg-green-100 text-green-800 p-4 rounded-xl font-bold flex-shrink-0 flex items-center justify-center w-20 h-20 text-center group-hover:scale-105 transition-transform">
-                <span className="text-sm uppercase tracking-wider block">Module</span>
-                <span className="text-4xl ml-1">5</span>
+               <div className="bg-green-900/40 text-green-400 px-3 py-1.5 rounded-lg font-bold flex-shrink-0 flex items-center justify-center w-max group-hover:scale-105 transition-transform">
+                <span className="text-xs uppercase tracking-wider">Module</span>
+                <span className="text-xl ml-1">5</span>
               </div>
-              <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-800 transition-colors">Giải Phẫu Landing Page (Kỹ năng mang lại $1K, $2K / bài)</h4>
-                <ul className="space-y-3 text-gray-700">
+              <div className="flex-1 min-w-0">
+                <h4 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">Giải Phẫu Landing Page (Kỹ năng mang lại $1K, $2K / bài)</h4>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1 font-bold">✓</span>
                     <span>Làm sao để người khác đâm đầu vào mua sản phẩm?</span>
@@ -180,15 +178,15 @@ export function Mechanism() {
           
           {/* Module 6 */}
           <FadeIn delay={0.2}>
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
+            <div className="bg-[#111] border-2 border-gray-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start shadow-sm hover:shadow-lg transition-shadow relative overflow-hidden group">
                <div className="absolute top-0 left-0 w-2 h-full bg-green-500"></div>
-               <div className="bg-green-100 text-green-800 p-4 rounded-xl font-bold flex-shrink-0 flex items-center justify-center w-20 h-20 text-center group-hover:scale-105 transition-transform">
-                <span className="text-sm uppercase tracking-wider block">Module</span>
-                <span className="text-4xl ml-1">6</span>
+               <div className="bg-green-900/40 text-green-400 px-3 py-1.5 rounded-lg font-bold flex-shrink-0 flex items-center justify-center w-max group-hover:scale-105 transition-transform">
+                <span className="text-xs uppercase tracking-wider">Module</span>
+                <span className="text-xl ml-1">6</span>
               </div>
-              <div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-800 transition-colors">Từ A to Z Dịch Vụ Social Media Copywriting</h4>
-                <ul className="space-y-3 text-gray-700">
+              <div className="flex-1 min-w-0">
+                <h4 className="text-2xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors">Từ A to Z Dịch Vụ Social Media Copywriting</h4>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 mt-1 font-bold">✓</span>
                     <span>Tại sao khách hàng thuê bạn quản lý Social dù họ có thừa nhân viên?</span>
